@@ -16,3 +16,7 @@ group :test do
   gem 'capybara-webkit', '~> 1.1.1'
 end
 
+group :development, :test do
+  gem 'pry'
+end
+
